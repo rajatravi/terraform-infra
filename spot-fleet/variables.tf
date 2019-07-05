@@ -8,15 +8,15 @@ variable "AWS_DEFAULT_REGION" {
 }
 variable "ami_id" {
   type        = "string"
-  default     = "ami-07b4156579ea1d7ba"
+  default     = "ami-id"
 }
 variable "key_name" {
   type        = "string"
-  default     = "okts-key"
+  default     = "key"
 }
 variable "project_tag" {
   type        = "string"
-  default     = "okts"
+  default     = ""
 }
 variable "bid_price" {
   type        = "string"

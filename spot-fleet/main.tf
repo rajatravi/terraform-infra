@@ -17,7 +17,7 @@ resource "aws_launch_template" "my_ami_lt" {
   availability_zone = "us-east-1a"
   }
 
-  vpc_security_group_ids =  ["sg-0c4144342baff5c79"]
+  vpc_security_group_ids =  ["sg-group"]
 
 
   tag_specifications {

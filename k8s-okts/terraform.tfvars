@@ -1,5 +1,5 @@
 #Global Vars
-AWS_SSH_KEY_NAME   = "okts-key"
+AWS_SSH_KEY_NAME   = "key"
 AWS_DEFAULT_REGION = "us-east-1"
 aws_cluster_name   = "dev-okts"
 profile            = "default"
